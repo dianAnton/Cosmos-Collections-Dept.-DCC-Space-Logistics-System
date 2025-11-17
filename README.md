@@ -1,7 +1,10 @@
 
 # 🌌 Cosmos Collections Dept. (DCC) - Space Logistics System
 
+
 <div align="center">
+<img width="80%" alt="Dept Colecciones del Cosmos" src="https://github.com/user-attachments/assets/d1730180-2d8c-464e-9cd1-210df6a7f329" />
+
 
 ![Python](https://img.shields.io/badge/python-3.12%2B-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyQt5](https://img.shields.io/badge/PyQt5-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
@@ -102,9 +105,7 @@ The project follows a strict separation of concerns (MVC pattern adaptation):
 
 ## 📸 Visual Preview
 
-*(Placeholder for your Screenshots - Highly Recommended)*
-
 | **Dashboard** | **Star Map Visualization** |
 |:---:|:---:|
-| *Query interface for filtering ships and missions* | *Coordinate-based rendering of planetary systems* |
+| <img width="95%" alt="imagen" src="https://github.com/user-attachments/assets/97e5e9cf-e4c7-4327-b912-16bf079b2ab9" /> | <img width="85%" alt="imagen" src="https://github.com/user-attachments/assets/dfeb65fb-60d2-470d-a125-b44034678d79" />|
 |  |  |
