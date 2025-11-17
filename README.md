@@ -47,20 +47,20 @@ The project follows a strict separation of concerns (MVC pattern adaptation):
 
 ```text
 /
-├── main.py                     # Application Entry Point & Controller
-├── parametros.py               # Configuration constants (Map dimensions, scaling)
-├── .gitignore                  # Git configuration
-├── backend/                    # Business Logic & Data Processing
-│   ├── cargar_datos.py         # CSV to Generator parsers
-│   ├── consultas.py            # Main query interface
+├── main.py                             # Application Entry Point & Controller
+├── parametros.py                       # Configuration constants (Map dimensions, scaling)
+├── .gitignore                          # Git configuration
+├── backend/                            # Business Logic & Data Processing
+│   ├── cargar_datos.py                 # CSV to Generator parsers
+│   ├── consultas.py                    # Main query interface
 │   ├── logica_ventana_principal.py
-│   └── consultas_generadores/  # Modularized query logic
-│       ├── consultas_un_gen.py    # Single-source queries
-│       ├── consultas_dos_gen.py   # Data joining (2 sources)
-│       └── consultas_tres_gen.py  # Complex aggregation (3 sources)
-└── frontend/                   # User Interface
-    ├── sprites/                # Assets for planetary visualization
-    └── ventanas/               # PyQt5 Window Definitions
+│   └── consultas_generadores/          # Modularized query logic
+│       ├── consultas_un_gen.py         # Single-source queries
+│       ├── consultas_dos_gen.py        # Data joining (2 sources)
+│       └── consultas_tres_gen.py       # Complex aggregation (3 sources)
+└── frontend/                           # User Interface
+    ├── sprites/                        # Assets for planetary visualization
+    └── ventanas/                       # PyQt5 Window Definitions
         ├── ventana_inicio.py
         ├── ventana_principal.py
         └── ventana_mapa.py
@@ -78,8 +78,8 @@ The project follows a strict separation of concerns (MVC pattern adaptation):
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/yourusername/cosmos-collections-dcc.git](https://github.com/yourusername/cosmos-collections-dcc.git)
-    cd cosmos-collections-dcc
+    git clone https://github.com/dianAnton/Cosmos-Collections-Dept.-DCC-Space-Logistics-System.git
+    cd Cosmos-Collections-Dept.-DCC-Space-Logistics-System
     ```
 
 2.  **Install dependencies:**
@@ -108,31 +108,3 @@ The project follows a strict separation of concerns (MVC pattern adaptation):
 |:---:|:---:|
 | *Query interface for filtering ships and missions* | *Coordinate-based rendering of planetary systems* |
 |  |  |
-
-## 🧪 Testing
-
-The project includes a suite of unit tests to validate the functional logic and memory efficiency.
-
-```bash
-# Run public tests
-python -B -m unittest discover tests_publicos -v -b
-```
-
------
-
-\<div align="center"\>
-\<p\>Made with 🪐 and Python by [Tu Nombre]\</p\>
-\<p\>\<i\>Pontificia Universidad Católica de Chile\</i\>\</p\>
-\</div\>
-
-```
-
-### 💡 Recomendaciones adicionales para tu Repo Público:
-
-1.  **Screenshots Reales:** Como el proyecto tiene una GUI (interfaz gráfica), es **obligatorio** que pongas screenshots reales donde dejé los *placeholders*. Ejecuta el programa, toma capturas de la "Ventana Principal" (con datos cargados) y de la "Ventana Mapa" (con los planetas dibujados) y súbelas al README.
-2.  **Datos de Prueba:** Como el `.gitignore` bloquea la carpeta `data/`, el repo subirá vacío de datos.
-      * *Opción Pro:* Crea una carpeta `data_sample/` con archivos CSV falsos muy pequeños (3 o 4 líneas cada uno) para que quien clone el repo pueda probarlo sin necesitar los archivos gigantes de la universidad.
-3.  **Licencia:** Considera agregar un archivo `LICENSE` (como MIT) si quieres que sea open source, o simplemente dejarlo sin licencia explicita si es solo para mostrar.
-
-¿Te gustaría que genere un pequeño script de Python para crear datos de prueba ("dummy data") automáticamente para este repo? Eso haría que tu proyecto sea ejecutable por cualquiera inmediatamente.
-```
